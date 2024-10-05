@@ -1,0 +1,7 @@
+﻿@inherits _EshopgloziksoftViewPage
+@using eshopgloziksoft.lib.Models
+@{
+    Layout = "layout.cshtml";
+}
+
+@Html.GetGridHtml(Model, "gridContent", "Bootstrap3-Fluid")
